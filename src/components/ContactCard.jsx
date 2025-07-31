@@ -27,7 +27,7 @@ function ContactCard(props) {
     };
 
     return (
-        <div className="card mt-3">
+        <div className="Card mt-3">
 
             <img src="https://thumbs.dreamstime.com/b/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available-236105299.jpg" className="card-img-top" alt="Contact" />
 

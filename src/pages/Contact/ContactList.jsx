@@ -35,10 +35,10 @@ export const ContactList = () => {
 
                 <h2>Contact List</h2>
 
-                <div className="ContactList">
+                <div className="Lista">
                     {store.contacts?.length > 0 ? (
                         store.contacts.map((contact, index) => (
-                            <div key={index}>
+                            <div key={index} className='Contacto'>
                                 <ContactCard
                                     contactName={contact.name}
                                     contactMail={contact.email}
